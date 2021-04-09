@@ -1,18 +1,52 @@
-   /* \\\\\\\\\\\\\\\\\\\\ NAV \\\\\\\\\\\\\\\\\\\  */
+/* UTILITY */
   
-#logo{
-    width:25%;
-    position:absolute;
-}
-
 .contain-80{
     width:80%;
     margin:auto;
-    display: flex; 
-    margin:15px auto;
+    padding:20px 0;
+}
+
+.color-white{
+    color:white;
+}
+
+.bg-white{
+    background-color: white;
+}
+.h2{
+    text-align: center;
+    color:black;
+    padding:15px;
+}
+.h2-blue{
+    color:blue;
+    text-align: center;
+}
+
+/* UTILITY */
+
+  /* \\\\\\\\\\\\\\\\\\\\ NAV \\\\\\\\\\\\\\\\\\\  */
+  
+#logo{
+    width:25%;
+
+}
+
+.form-width, .form-btn{
+    width:90%;
+    height:35px;
+    margin:10px 30px;
+    padding:0 5px;
+    border-radius: 5px;
+    border:none;
+    border:1px solid gray;
+}
+.form-btn{
+    background-color: #004AFF;
+    color:white;
 }
 .img-xs{
-    width:30px;
+    width:75%;
 }
 
 #center-menu{
@@ -51,10 +85,49 @@ ul{
     background-color:darkcyan;
     color:white;
 }
-/* .btn-full:hover{
-    color:white;
-} */
-
 
 
    /* \\\\\\\\\\\\\\\\\\\\   /NAV \\\\\\\\\\\\\\\\\\\  */
+
+   /* \\\\\\\\\\\\\\\\\\\\\\ JUMBOTRON \\\\\\\\\\\\\\\ */
+.jumbotron{
+    background-image: url(../img/bg-banner-home.jpg);
+    background-size: cover;
+    width:100%;
+    height:400px;
+}
+.contain-80>.col-6>h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.contain-80>.col-6>.color-white{
+    font-weight: 600;
+}
+
+.logo-google{
+    width:30px;
+}
+
+.form-text-cen{
+    text-align: center;
+    padding:5px;
+}
+
+.jumbotron .contain-80 .col-6{
+    padding-right: 45px;
+}
+
+.jumbotron .bg-white{
+    border-radius: 5px;
+}
+
+.term-e-cond{
+    text-align: center;
+    padding:10px;
+}
+
+.term-e-cond a{
+    text-decoration: underline;
+}
+   /* \\\\\\\\\\\\\\\\\\\\\\  /JUMBOTRON \\\\\\\\\\\\\\\ */
+

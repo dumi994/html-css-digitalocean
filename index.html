@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;0,800;0,900;1,100&display=swap"
+        rel="stylesheet">
 
     <!-- /FONTS -->
     <title>Digital Ocean</title>
@@ -23,13 +27,13 @@
 
     <!-- HEADER -->
     <header>
+        <!-- NAVBAR -->
         <div class="container">
             <nav class="contain-80 flex">
-                <div id="logo col-4">
-                    <h2 class="logo-title"><img src="./assets/img/logo-small.svg" class="img-xs" alt=""> DigitalOcean
-                    </h2>
+                <div id="logo">
+                    <img src="./assets/img/logo.png" class="img-xs" alt="">
                 </div>
-                <div id="center-menu" class="col-5">
+                <div id="center-menu" class="">
                     <ul>
                         <li><a href=""> Products <i class="fas fa-chevron-down"></i></a></li>
                         <li><a href="">Customers</a></li>
@@ -47,8 +51,52 @@
                 </div>
             </nav>
         </div>
+        <!-- /NAVBAR -->
 
-        <div class="jumobotron"></div>
+        <div class="jumbotron">
+            <div class="contain-80">
+                <div class="col-6">
+                    <h1 class="color-white">
+                        The simplest cloud platform for developers & teams
+                    </h1>
+                    <p class="color-white">
+                        Deply, manage, and scale cloud application faster and more efficiently on DigitalOcean. We make
+                        managing infrastructure easy for teams and businesses, wether you're running one virutal machine
+                        or ten thousand.
+                    </p>
+                </div>
+                <div class="col-6 bg-white">
+                    <div class="h2">
+                        <h2>Deploy your app in seconds.</h2>
+                    </div>
+                    <div class="h2-blue">
+                        <h2>Get started now</h2>
+                    </div>
+                    <div class="forms flex">
+                        <form action="">
+                            <input class="form-width" type="email" name="email" placeholder="E-mail" required>
+                            <input class="form-width" type="password" name="password" placeholder="Password"
+                                minlength="8" required>
+                            <input class="form-btn" type="button" value="Create Your Account">
+                            <div class="form-btn" style="background-color: white;">
+                                <div class="col-1"><img src="./assets/img/google-icon.png" class="logo-google" alt="">
+                                </div>
+                                <div class="col-11 form-text-cen"><a href="#">
+                                        Sign up with Google</a>
+                                </div>
+                            </div>
+                            <div class="term-e-cond">
+                                <span class="term-e-cond">
+                                    By signing up you agree to the <a href="">Terms of Services
+                                    </a></span>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </header>
     <!-- /HEADER -->
 
