@@ -1,0 +1,60 @@
+   /* \\\\\\\\\\\\\\\\\\\\ NAV \\\\\\\\\\\\\\\\\\\  */
+  
+#logo{
+    width:25%;
+    position:absolute;
+}
+
+.contain-80{
+    width:80%;
+    margin:auto;
+    display: flex; 
+    margin:15px auto;
+}
+.img-xs{
+    width:30px;
+}
+
+#center-menu{
+    text-align:right;
+    padding-top:15px;
+}
+#center-menu>ul{
+    list-style: none;
+}
+ul>li{
+    display: inline-block;
+    padding:0 10px;
+}
+a{
+    text-decoration: none;
+    color: #253A64;
+}
+ul{
+    display: inline-block;
+}
+#right-menu{
+    text-align:right;
+    padding-top:15px;
+}
+
+.logo-title{
+    color:#2285FD;
+}
+.btn{
+    border:1px solid #2285FD;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background-color:darkcyan;
+    color:white;
+}
+/* .btn-full:hover{
+    color:white;
+} */
+
+
+
+   /* \\\\\\\\\\\\\\\\\\\\   /NAV \\\\\\\\\\\\\\\\\\\  */

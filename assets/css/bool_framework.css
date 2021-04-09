@@ -10,6 +10,11 @@
     clear:both;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
 .container{
     max-width: 1720px;
     margin:0 auto;
