@@ -26,16 +26,20 @@
 /* UTILITY */
 
   /* \\\\\\\\\\\\\\\\\\\\ NAV \\\\\\\\\\\\\\\\\\\  */
-  
+.nav{
+    width: 80%;
+    margin: auto;
+    font-size: 12px;
+    font-weight: 600;
+}
 #logo{
-    width:25%;
-
+    max-width: 200px;
 }
 
 .form-width, .form-btn{
     width:90%;
     height:35px;
-    margin:10px 30px;
+    margin:5px 19px;
     padding:0 5px;
     border-radius: 5px;
     border:none;
@@ -46,19 +50,20 @@
     color:white;
 }
 .img-xs{
-    width:75%;
+    max-width:200px;
+    margin-top: 10px;
 }
 
 #center-menu{
     text-align:right;
-    padding-top:15px;
+    padding:25px 0;
 }
 #center-menu>ul{
     list-style: none;
 }
 ul>li{
     display: inline-block;
-    padding:0 10px;
+    padding:0 5px;
 }
 a{
     text-decoration: none;
@@ -69,7 +74,7 @@ ul{
 }
 #right-menu{
     text-align:right;
-    padding-top:15px;
+    padding:25px 0;
 }
 
 .logo-title{
@@ -123,11 +128,65 @@ ul{
 
 .term-e-cond{
     text-align: center;
-    padding:10px;
+    padding-bottom:10px;
+    font-size: 14px;
 }
 
 .term-e-cond a{
     text-decoration: underline;
 }
    /* \\\\\\\\\\\\\\\\\\\\\\  /JUMBOTRON \\\\\\\\\\\\\\\ */
+
+   /* \\\\\\\\\\\\\\\\\\\\\\  MAIN / LOGHI \\\\\\\\\\\\\\\ */
+.loghi{
+    width:100%;
+    background-color: #F3F5F9;
+    text-align: center;
+    color:gray;
+}
+
+.main-logos img{
+    text-align: center;
+}
+
+
+
+   /* \\\\\\\\\\\\\\\\\\\\\\  MAIN / LOGHI \\\\\\\\\\\\\\\ */
+
+
+
+
+
+   /* MEDIASCREEN */
+
+@media screen and (max-width:767px){
+    #center-menu{
+        display: none;
+    }
+    #right-menu{
+        display: none;
+    }
+    .bar-menu{
+        display: inline-block;
+    }
+} 
+
+@media screen and (min-width:768px) and (max-width:992px){
+    #center-menu{
+        display: none;
+    }
+    #right-menu{
+        display: none;
+    }
+    .bar-menu{
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width:992px){
+    .bar-menu{
+        opacity: 0;
+        margin-top:-15px;
+    }
+}
 
