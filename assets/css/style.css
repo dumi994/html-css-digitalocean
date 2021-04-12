@@ -336,6 +336,24 @@ main .loghi .main-logos{
 
    /* \\\\\\\\\\\\\\\\\\\\\\  /MAIN 4 SECTION \\\\\\\\\\\\\\\ */
 
+   /* \\\\\\\\\\\\\\\\\\\\\\  FOOTER \\\\\\\\\\\\\\\\\ */
+
+#blu-footer{
+    background-color: #031C4E;
+    height:300px;
+}
+#blu-footer .social-logos>a{
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+     /* \\\\\\\\\\\\\\\\\\\\\\  /FOOTER \\\\\\\\\\\\\\\\\ */
+
+
+
+   
    /* MEDIASCREEN */
 
 @media screen and (max-width:767px){
