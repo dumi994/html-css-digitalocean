@@ -36,15 +36,10 @@
 .pos-rel{
     position:relative;
 }
-.height-500{
-    height:500px;
-}
 
 .blue{
     color: #2285FD;
 }
-
-
 
 .padding-t-b{
     padding:20px;
@@ -63,7 +58,6 @@
 .block{
     display: block;
 }
-
 
 .btn-white{
     width:20%;
@@ -423,6 +417,14 @@ main .loghi .main-logos{
 
     /*  / SEZIONE 1 */
 
+    /* sezione azzurra */
+    .azzurro-100 .slide{
+        width:50%;
+    }
+
+
+    /* sezione azzurra */
+
 } 
 
 @media screen and (min-width:768px) and (max-width:992px){
@@ -438,6 +440,10 @@ main .loghi .main-logos{
         font-size: 30px;
         margin-top: 10px;
         margin-right: 15px;
+    }
+
+    .azzurro-100 .slide{
+        width:50%;
     }
 }
 
