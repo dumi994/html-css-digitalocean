@@ -340,12 +340,29 @@ main .loghi .main-logos{
 
 #blu-footer{
     background-color: #031C4E;
-    height:300px;
 }
 #blu-footer .social-logos>a{
     padding-right: 10px;
     font-size: 25px;
 }
+
+#blu-footer ul li{
+    display: block;
+    color: lightgray;
+    padding-top:5px;
+}
+#blu-footer ul{
+    margin-bottom: 25px;
+}  
+    
+}
+#blu-footer ul h4{
+    color:white;
+    padding-top: 20px;
+    
+}
+
+
 
 
 
