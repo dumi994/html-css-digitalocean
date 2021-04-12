@@ -36,11 +36,6 @@
 .pos-rel{
     position:relative;
 }
-.pos-ab{
-    position:absolute;
-    right:0;
-}
-
 .height-500{
     height:500px;
 }
@@ -49,13 +44,15 @@
     color: #2285FD;
 }
 
+
+
 .padding-t-b{
     padding:20px;
 }
 
 .testo-centr{
     text-align: center;
-    margin:10px auto;
+    padding:10px auto;
 }
 .testo-sx{
     text-align: left;
@@ -68,7 +65,17 @@
 }
 
 
-
+.btn-white{
+    width:20%;
+    margin:auto;
+    border:1px solid grey;
+    color:#2285FD;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding:10px 15px;
+    margin-bottom: 50px;
+}
 /* UTILITY */
 
   /* \\\\\\\\\\\\\\\\\\\\ NAV \\\\\\\\\\\\\\\\\\\  */
@@ -273,6 +280,7 @@ main .loghi .main-logos{
 
    /* \\\\\\\\\\\\\\\\\\\\\\  /MAIN 2 SECTION \\\\\\\\\\\\\\\ */
 
+   /* \\\\\\\\\\\\\\\\\\\\\\  MAIN 3 SECTION \\\\\\\\\\\\\\\ */
 
 .blu-gr{
     background: linear-gradient(180deg, #0048C5 0%, #001F9A 100%);
@@ -295,6 +303,39 @@ main .loghi .main-logos{
 .blu-gr span a{
     color:#00AFCB;
 }
+   /* \\\\\\\\\\\\\\\\\\\\\\  / MAIN 3 SECTION \\\\\\\\\\\\\\\ */
+
+   /* \\\\\\\\\\\\\\\\\\\\\\  MAIN 4 SECTION \\\\\\\\\\\\\\\ */
+.azzurrina{
+    background-color: #F3F5F9;;
+}
+
+.azzurrina i{
+    padding-top: 20px;
+}
+.azzurrina .chevron{
+    padding-top: 120px;
+}
+
+.rockerbox{
+    align-items: center;
+    width:50%;
+    margin:auto;
+    padding: 50px 0 20px 0;
+}
+.rocker-contain{
+    display: flex;
+    width:60%;
+    margin:auto;
+    background-color: white;
+    flex-direction: column; 
+}
+.in-bl{
+    display: inline-block;
+}
+
+   /* \\\\\\\\\\\\\\\\\\\\\\  /MAIN 4 SECTION \\\\\\\\\\\\\\\ */
+
    /* MEDIASCREEN */
 
 @media screen and (max-width:767px){
