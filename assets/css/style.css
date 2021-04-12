@@ -1,7 +1,7 @@
 /* UTILITY */
   
 .contain-80{
-    width:80%;
+    max-width:80%;
     margin:auto;
     padding:20px 0;
 }
@@ -26,6 +26,9 @@
 .mar-top{
     margin-top:20px;
 }
+.mar-bot{
+    margin-bottom: 20px;
+}
 
 .fl-right{
     float:right;
@@ -38,6 +41,13 @@
     right:0;
 }
 
+.height-500{
+    height:500px;
+}
+
+.blue{
+    color: #2285FD;
+}
 /* UTILITY */
 
   /* \\\\\\\\\\\\\\\\\\\\ NAV \\\\\\\\\\\\\\\\\\\  */
@@ -162,11 +172,21 @@ ul{
     background-color: #F3F5F9;
     text-align: center;
     color:gray;
+    align-items: center;
+}
+.main-logos .flex-item{
+    width:calc(100% / 6);
 }
 
 .main-logos img{
-    text-align: center;
+    width:100%;
 }
+
+main .loghi .main-logos{
+    flex-wrap: wrap;
+}
+
+
    /* \\\\\\\\\\\\\\\\\\\\\\  \ MAIN / LOGHI \\\\\\\\\\\\\\\ */
 
    /* \\\\\\\\\\\\\\\\\\\\\\  MAIN 1 SECTION \\\\\\\\\\\\\\\ */
@@ -203,10 +223,37 @@ ul{
 
    /* \\\\\\\\\\\\\\\\\\\\\\  MAIN 1 SECTION \\\\\\\\\\\\\\\ */
 
-
-#second-title{
+ 
+   /* \\\\\\\\\\\\\\\\\\\\\\  MAIN 2 SECTION \\\\\\\\\\\\\\\ */
+.testo-centr{
     text-align: center;
 }
+
+.azzurro-100{
+    width:100%;
+    background-color: #F3F5F9;
+}
+.azzurro-100 h2{
+    padding:10px 0 20px 0;
+}
+.azzurro-100 span{
+    padding-bottom: 20px;
+}
+.azzurro-100 img{
+    margin-top: 20px;
+}
+
+.chevron{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 55px;
+}
+.flex > .chevron:first-child{
+    color: gray;
+}
+
+   /* \\\\\\\\\\\\\\\\\\\\\\  /MAIN 2 SECTION \\\\\\\\\\\\\\\ */
 
    /* MEDIASCREEN */
 
@@ -217,27 +264,37 @@ ul{
     #right-menu{
         display: none;
     }
-    /* .jumbotron{
-        background-image: url(../img/bg-banner-home.jpg);
-        background-size: cover;
-        width:100%;
-        height:465px;
-    } */
 
-    .jumbotron{
-        min-height: 465px;
+    .jumbotron {
+        height: 515px;
     }
 
     .jumbotron p{
         padding: 20px 0 20px 0;
     }
-    
 
     .bar-menu{
         display:block;
         color:#2285FD;
         font-size: 30px;
         margin:10px 15px 0 0;
+    }
+
+    .main-logos .flex-item{
+        width:calc(100% / 2);
+        
+    }
+    .main-logos .flex-item img{
+       align-items: center;
+        
+    }
+    .main-logos img{
+        width:50%;
+        align-items: center;
+    }
+    .loghi h5{
+        padding-top: 15px;
+        
     }
 } 
 
