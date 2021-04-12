@@ -23,6 +23,21 @@
     text-align: center;
 }
 
+.mar-top{
+    margin-top:20px;
+}
+
+.fl-right{
+    float:right;
+}
+.pos-rel{
+    position:relative;
+}
+.pos-ab{
+    position:absolute;
+    right:0;
+}
+
 /* UTILITY */
 
   /* \\\\\\\\\\\\\\\\\\\\ NAV \\\\\\\\\\\\\\\\\\\  */
@@ -77,6 +92,10 @@ ul{
     padding:25px 0;
 }
 
+.bar-menu{
+    color:#2285FD;
+}
+
 .logo-title{
     color:#2285FD;
 }
@@ -123,7 +142,7 @@ ul{
 }
 
 .jumbotron .bg-white{
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .term-e-cond{
@@ -148,14 +167,46 @@ ul{
 .main-logos img{
     text-align: center;
 }
+   /* \\\\\\\\\\\\\\\\\\\\\\  \ MAIN / LOGHI \\\\\\\\\\\\\\\ */
+
+   /* \\\\\\\\\\\\\\\\\\\\\\  MAIN 1 SECTION \\\\\\\\\\\\\\\ */
+.titolo{
+    width:80%;
+    text-align: center;
+    padding-top:50px;
+}
+.titolo h3, span{
+    margin-bottom: 10px;
+}
+
+.border-left{
+    border-left:1px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.border-left li{
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: 500;
+    color:gray;
+}
+#servizi{
+    text-align: left;
+    margin:5px 20px 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+#servizi .col-3{
+    width:50%;
+}
+
+   /* \\\\\\\\\\\\\\\\\\\\\\  MAIN 1 SECTION \\\\\\\\\\\\\\\ */
 
 
-
-   /* \\\\\\\\\\\\\\\\\\\\\\  MAIN / LOGHI \\\\\\\\\\\\\\\ */
-
-
-
-
+#second-title{
+    text-align: center;
+}
 
    /* MEDIASCREEN */
 
@@ -166,8 +217,27 @@ ul{
     #right-menu{
         display: none;
     }
+    /* .jumbotron{
+        background-image: url(../img/bg-banner-home.jpg);
+        background-size: cover;
+        width:100%;
+        height:465px;
+    } */
+
+    .jumbotron{
+        min-height: 465px;
+    }
+
+    .jumbotron p{
+        padding: 20px 0 20px 0;
+    }
+    
+
     .bar-menu{
-        display: inline-block;
+        display:block;
+        color:#2285FD;
+        font-size: 30px;
+        margin:10px 15px 0 0;
     }
 } 
 
@@ -179,14 +249,18 @@ ul{
         display: none;
     }
     .bar-menu{
-        opacity: 1;
+        display: block;
+        color:#2285FD;
+        font-size: 30px;
+        margin-top: 10px;
+        margin-right: 15px;
     }
 }
 
 @media screen and (min-width:992px){
     .bar-menu{
-        opacity: 0;
-        margin-top:-15px;
+        display: none;
+        /* margin-top:-15px; */
     }
 }
 
