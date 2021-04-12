@@ -48,6 +48,27 @@
 .blue{
     color: #2285FD;
 }
+
+.padding-t-b{
+    padding:20px;
+}
+
+.testo-centr{
+    text-align: center;
+    margin:10px auto;
+}
+.testo-sx{
+    text-align: left;
+}
+.testo-dx{
+    text-align: right;
+}
+.block{
+    display: block;
+}
+
+
+
 /* UTILITY */
 
   /* \\\\\\\\\\\\\\\\\\\\ NAV \\\\\\\\\\\\\\\\\\\  */
@@ -225,9 +246,6 @@ main .loghi .main-logos{
 
  
    /* \\\\\\\\\\\\\\\\\\\\\\  MAIN 2 SECTION \\\\\\\\\\\\\\\ */
-.testo-centr{
-    text-align: center;
-}
 
 .azzurro-100{
     width:100%;
@@ -255,6 +273,28 @@ main .loghi .main-logos{
 
    /* \\\\\\\\\\\\\\\\\\\\\\  /MAIN 2 SECTION \\\\\\\\\\\\\\\ */
 
+
+.blu-gr{
+    background: linear-gradient(180deg, #0048C5 0%, #001F9A 100%);
+}
+
+.blu-gr h2{
+    color:white;
+    padding:30px;
+    font-size: 35px;
+}
+
+.blu-gr span{
+    color:white;
+    padding-left:10px;
+    padding-bottom:20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.blu-gr span a{
+    color:#00AFCB;
+}
    /* MEDIASCREEN */
 
 @media screen and (max-width:767px){
