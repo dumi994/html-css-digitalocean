@@ -204,6 +204,10 @@ ul{
     width:100%;
 }
 
+.flex-item{
+    align-self: center;
+}
+
 main .loghi .main-logos{
     flex-wrap: wrap;
 }
